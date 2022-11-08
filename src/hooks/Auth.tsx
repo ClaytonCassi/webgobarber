@@ -17,7 +17,7 @@ interface AuthState {
   user:  unknown;
 }
 
-//let context
+//let context wrap
  const AuthContext = createContext<AuthContextData>( {} as AuthContextData);
 
  const AuthProvider: React.FC = ({ children }) => {
